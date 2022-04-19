@@ -1,0 +1,180 @@
+.summaryList {
+  margin-left: 1em;
+  font-size: 0.8em;
+}
+
+.summaryListItem {
+  margin-top: 4px;
+}
+
+.highlightHeader {
+  font-size: 1em;
+}
+
+.highlightList {
+  margin-top: 4px;
+  margin-bottom: 25px;
+  margin-left: -10px;
+}
+
+.highlightItem {
+  margin-top: 4px;
+  font-size: 0.75em;
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 10px;
+  position: relative;
+}
+li.highlightItem::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0.3em;
+  left: -20px;
+  height: 10px;
+  width: 10px;
+  background-size: contain;
+  background-image: url(/src/star.svg)
+}
+
+.highlightItemEmployer {
+  font-size: 0.95em;
+  font-weight: bold;
+  padding-left: 0.5em;;
+}
+
+.techList {
+  margin: 1em;
+  margin-right: 2em;
+  margin-left: 0.5em;
+}
+
+.techListItem {
+  line-height: 0.9em;
+  font-size: 0.8em;
+  cursor: pointer;
+  padding: 4px;
+  margin: 2px;
+  float: left;
+  border-radius: 0.2em; 
+}
+
+.techListItem:hover, .techListItemSelected {
+  border-radius: 0.2em; 
+  background-color: rgba(249, 221, 81, 0.88);
+}
+
+.jobRow {
+  /* parent row for the job */
+  background-color: white;
+  color: #000;
+}
+
+.empName {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-bottom: 2px;
+  margin-top: 4px;
+}
+
+.empLocation {
+  font-style: italic;
+  font-size: 0.7em;
+  margin-bottom: 2px;
+  margin-top: 4px;
+}
+
+
+.jobTitle {
+  font-size: 1.1em;
+}
+
+.jobSummary {
+  font-size: 0.8em;
+}
+
+.jobList {
+  font-size: 0.8em;
+  margin-bottom: 4px;
+}
+
+.jobListItem {
+  list-style-type:square ;
+}
+
+.jobDuration {
+  margin-top: 3px;
+  font-weight: bold;
+  font-size: 0.75em;
+  color: rgb(33, 33, 33);
+}
+
+.jobTechListHeader {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 0.85em;
+}
+.jobTechList {
+  margin: 3px 0px 30px 25px;
+  font-size: 0.7em;
+}
+.jobTechListItem {
+  padding: 0 3px;
+  margin: 1px;
+  display: inline-block; 
+  clear: both;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .summaryListItem {
+    animation: FadeInText 300ms ease-in;
+  }
+  .jobRow {
+    animation: FadeInRow 300ms ease-in;
+  }
+}
+
+@media not print {
+  @media (max-width: 768px) { 
+    .jobTitle {
+      font-size: 0.9em;
+    }
+    .jobDuration {
+      font-size: 0.6em;
+    }
+    .jobTechListHeader {
+      font-size: 0.75em;
+    }
+  }
+}
+
+@keyframes FadeInText {
+  0% {
+    color: rgb(255, 255, 255);
+    transform: translateY(5px);
+  }
+  50% {
+    color: rgb(235, 235, 235);
+    transform: translateY(2px);
+  }
+  100% {
+    color: rgb(0,0,0);
+    transform: translateY(0px);
+  }
+}
+
+@keyframes FadeInRow {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  50% {
+    opacity: 0.3;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
