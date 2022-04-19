@@ -48,16 +48,19 @@ const jobHighlights = [
         "sbd", "Developed a critical path 'theory of constraints' dashboard identifing bottlenecks in production lines used by all production facilities." 
     ),
     createHighlight(
-        "match", "Redesigned a major subscription service payment page that was attributed to a 4% increase in total sales." 
+        "match", "Redesigned a major subscription service payment page that was attributed to an increase in total sales of 4%." 
     ),
     createHighlight(
-        "blackline", "Archtected and delivered a data importing feature that dramtically reduced customer onboarding delays for a financial company that helped the company grow dramtically in the Fortune 500 space." 
+        "blackline", "Archtected and delivered a data importing feature that reduced customer onboarding delays for a financial services company that helped the company grow in the Fortune 500 space." 
     ),
     createHighlight(
-        "volusion", "Guided a PCI compliance audit and personally provided the documentation and evidence required to pass an audit that was threatening the continued operation of the company." 
+        "volusion", "Guided a PCI compliance audit and personally provided the documentation and evidence required to pass the audit that was threatening the operation of a major storefront company." 
     ),
     createHighlight(
         "realtor", "Built an Enterprise Architecture Department from it's conception to a team of 22 members complete with integration processes for a large internet company."
+    ),
+    createHighlight(
+        "fdsi", "Built an WYSIWYG data importing feature on the Windows platform that revolutionized the corporate tax software industry forcing competitors to create similar features in their product as a baseline for entering the industry."
     ),
 ]
 
@@ -77,7 +80,7 @@ const jobs = [
         ],
         "",
     ),
-    createJob( "sbd", "Senior Software Developer (IC)",
+    createJob( "sbd", "Senior Software Developer",
         "Stanley Black and Decker",
         "(Remote) Brea, CA",
         "/logo192.png",
@@ -91,11 +94,11 @@ const jobs = [
             "Instrumental in diagnosing Azure intermittent issues in production across the enterprise.",
             "Performed testing and debugging on various platforms incluing iOS, Android, Windows 10, Mac OS"
         ],
-        "SQL Server, .NET, C#, Docker, React, Javascript, Bootstrap, Sharepoint, iOS, Android, ASP.NET, AST.NET Core, OAUTH, Azure, Windows 10, Mac OS, JD Edwards",
+        "SQL Server, .NET, C#, Docker, React, Javascript, Bootstrap, Sharepoint, iOS, Android, ASP.NET, .NET Core, OAUTH, Azure, Windows 10, Mac OS, JD Edwards",
     ),
     createJob( "healthsherpa","Senior Software Developer",
         "Geozoning, Inc",
-        "Remote, US",
+        "(Remote) San Francisco, CA",
         "/logo192.png",
         2019, 8,
         2021, 12,
@@ -107,7 +110,7 @@ const jobs = [
             "Created Postgres performance indices with InnoDB for insight into historical and current database conditions.",
             "Introduced processes, and hosted meetings to link the buisiness with the development efforts of the team."
         ],
-        "Ruby, Rails, React, Redux, Postgres, SQL Server, InfluxDB, Heroku, Docker, Bootstrap",
+        "Ruby, Rails, React, Redux, Postgres, SQL Server, InfluxDB, Heroku, Docker, Bootstrap, .NET Core",
     ),
     createJob( "cam", "Senior Web Developer (IC)",
         "Consolidated Aerospace Manufacturing",
@@ -122,7 +125,7 @@ const jobs = [
             "Diagnosed Javascript problems on various platforms including iOS, Android, as well as Internet Explorer and Edge.",
             "Worked to fix vsrious Python reporting scripts and tools",
         ],
-        "SQL Server, C#, Docker, React, Javascript, Bootstrap, .NET, Sharepoint, iOS, Android, JD Edwards, Python",
+        "SQL Server, C#, Docker, React, Javascript, Bootstrap, .NET, .NET Core, Sharepoint, iOS, Android, JD Edwards, Python",
     ),
     createJob( "amp", "Senior Web Developer (IC)",
         "AMP Inc.",
@@ -137,11 +140,11 @@ const jobs = [
             "Researched issues and diagnosed Javascript problems on various platforms including iOS, Android, as well as common web browsers.",
             "Introduced the use of Storybook to catalog UI components."
         ],
-        "Postgres, Python, Docker, React, Redux, MobX, Javascript, Bootstrap, iOS, Android, Mac OS",
+        "Postgres, Python, Docker, React, Redux, MobX, Javascript, Bootstrap, iOS, Android, Mac OS, Jira",
     ),
     createJob( "pnnl", "Senior Software Developer (IC)",
         "Pacific Northwestern National Laboratories",
-        "Remote, US",
+        "(Remote) Richland, WA",
         "/logo192.png",
         2017, 4,
         2018, 9,
@@ -152,7 +155,7 @@ const jobs = [
             "Authored React components and Redux elements as needed for various projects.",
             "Recomended solutions such as Storybook and Redux Saga for various Javascript concerns."
         ],
-        "SQL Server, Oracle, MySQL, .NET, Azure, React, Redux, Redux Saga, Storybook, Javascript, Bootstrap, C#",
+        "SQL Server, Oracle, MySQL, .NET, .NET Core, Azure, React, Redux, Redux Saga, Storybook, Javascript, Bootstrap, C#, Jira",
     ),
     createJob( "match","Web Developer, Mobile (IC)",
         "Match.com",
@@ -166,7 +169,7 @@ const jobs = [
             "Lead the team in delivering the product from a Continous Integration pipeline.",
             "I lead internal teams in the diagnosis and resolution of issues encountered in production, as well as the implementation of new features and products on Match.com’s family of web properties.",
         ],
-        "React, Redux, Javascript, JQuery, Bootstrap, .NET, iOS, Android, ASP.NET, .NET Core, SQL Server, ASP.NET MVC, ASP.NET API, Javascript, Jenkins, C#",
+        "React, Redux, Javascript, JQuery, Bootstrap, .NET, iOS, Android, ASP.NET, .NET Core, SQL Server, ASP.NET MVC, ASP.NET API, Javascript, Jenkins, C#, Jira",
     ),
     createJob( "contentblvd","Chief Technology Officer",
         "ContentBLVD",
@@ -218,7 +221,7 @@ const jobs = [
             "Facilitated discovery meetings with Chevron, Inc. and their department executives and documented the requirements for the development efforts.",
             "Lead a team of 3 engineers in the design (UX), development, and deployment of the Content Managenet System across their enterprise.",
         ],
-        "SAP, Java, J2EE, .NET, C#, Bootstrap, ASP.NET, ASP.NET MVC, ASP.NET API, OAUTH, C#, Sitecore, CMS",
+        "SAP, Java, J2EE, .NET, C#, Bootstrap, ASP.NET, ASP.NET MVC, ASP.NET API, OAUTH, C#, Sitecore, CMS, Jira",
     ),
     createJob( "volusion","Director of Engineering",
         "Volusion",
@@ -228,11 +231,12 @@ const jobs = [
         2009, 7,
         "I joined as a key part of the management team to transform the company by instituting PCI compliant processes and increase site reliability.",
         [
-            "Drove the team to create professional-caliber documentation (Site Diagrams, Statement of Work, Marketing Plans, Use Cases, Activity Diagrams, Business and Data Work Flow Diagrams, Application Models, & Project Plans.) to help communicate project visions and plans of the development department.",
+            "Drove the team to create professional-caliber documentation (Site Diagrams, Statement of Work, Use Cases, Activity Diagrams, Business and Data Work Flow Diagrams, Application Models, & Project Plans) to communicate the technology roadmap for the company.",
             "Implemented opportunities to provide additional value to the projects and to clients at both the enterprise and entry stage levels.",
             "Provided leadership, mentorship and maintained a positive *can-do* attitude with all team members as an example to bring integrity to the department staff.",
             "Planned and guided the team in the migration of key components to the .NET 3.5 Framework from other technologies such as ASP, Ruby on Rails, and Java.",
             "Lead a department of 8 engineers and provided the documentation and processes across every aspect of the software development department.",
+            "Instrumental in providing the guidance and steps needed to scale Barak Obama's and John McCain's presidential fundraising storefront's during their 2008 campaigns.",
             "Developed job families and job criteria definitions for the software development department in conjunction with Human Resources and the CEO.",
         ],
         "ASP, ASP.NET, .NET, C#, SQL Server, My SQL, Java, J2EE, Ruby, Rails, Bootstrap, ASP.NET MVC, ASP.NET API, JQuery, Javascript",
@@ -250,7 +254,7 @@ const jobs = [
             "I lead projects that help the consolidation of many custom ERP applications to a consolidated ERP platform leveraging Microsoft BizTalk and PeopleSoft.",
             "I drove the development efforts including personally implementing key areas of a custom search engine that replaced SQL Server queries that ran REALTOR.com Home Searches and WelcomeWagon.com Business Searches with over 14 million requests/day.",
             "Participated in close interaction with executive members to support the definition and clarification of new products and architectures on a wide variety of platforms.",
-            "Helped author Move Inc.’s modeling and design approach including mentoring team members in the process as well as actively fostering the adoption of the Software Development Lifecycle within the company.",
+            "Helped author Move Inc.'s modeling and design approach including mentoring team members in the process as well as actively fostering the adoption of the Software Development Lifecycle within the company.",
             "Actively involved in improving, redefining and authoring engineering processes and practices in efforts to reduce costs and increase product quality and time to market concerns.",
             "Evaluated and administered various tools used by the software department.",
             "Planned and executed the migration of maintenance functions for code bases to offshore teams and maintained the divisions of labor for these development efforts.",            

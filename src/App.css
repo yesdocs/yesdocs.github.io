@@ -86,12 +86,26 @@
 
 .email-icon {
   margin: 3px;
-  margin-right: 2px;
+  margin-right: 1px;
 }
 
 .phone-icon {
   margin: 3px;
   margin-right: 8px;
+}
+
+.peek-at-source {
+  margin: 28px 20px 12px 12px;
+}
+
+.peek-at-source a {
+  font-size: 0.6em;
+  text-decoration: none;
+  color: #444;
+}
+
+.peek-at-source img {
+  height: 1.2em;
 }
   
 @media (prefers-reduced-motion: no-preference) {
@@ -100,6 +114,9 @@
   }
   .icon:hover {
     animation: Heart-Beat infinite 3s linear  ;
+  }
+  .peek-at-source img {
+    animation: App-logo-float infinite 3s linear  ;
   }
 }
 

@@ -85,13 +85,16 @@ li.highlightItem::before {
   margin-top: 4px;
 }
 
-
 .jobTitle {
   font-size: 1.1em;
 }
 
 .jobSummary {
   font-size: 0.8em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 0.3em;
+  margin-top: 0.2em;
 }
 
 .jobList {

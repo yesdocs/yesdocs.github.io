@@ -5,6 +5,7 @@ import { Job } from './features/job/Job'
 import { SummaryJob } from './features/job/SummaryJob'
 import { JobHighlights } from './features/job/JobHighlights'
 import { JobTechnologies } from './features/job/JobTechnologies'
+import PeekAtCode from './PeekAtCode'
 import printIcon from './print.svg'
 import emailIcon from './email.svg'
 import phoneIcon from './phone.svg'
@@ -58,6 +59,8 @@ function EducationAndTech({ techFilter, onFilterChange }) {
   )
 }
 
+/* Here is our main application, in charge of managing state of the filter */
+
 function App() {
   const dispatch = useDispatch()
   const [techFilter, setTechFilter] = useState('')
@@ -100,6 +103,7 @@ function App() {
               techFilter={techFilter}
               onFilterChange={onFilterChange}
             />
+            <PeekAtCode />
           </div>
         </div>
         <div className="col-xs-12 col-sm-9">

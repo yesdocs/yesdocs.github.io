@@ -30,7 +30,7 @@ export function Job() {
                   <div className={'row'}>
                       <div className='col-12'>
                       { jb &&
-                          <p className={`ms-3 ${styles.jobSummary}`}>{jb.summary}</p>
+                          <p className={`${styles.jobSummary}`}>{jb.summary}</p>
                      }
                 </div>
               </div>
