@@ -29,6 +29,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Learn More
 
-You can learn more about me at [My Online Resume](https://www.gmckenzie.us/).
+You can learn more about me at [My Online Resume](https://www.georgemckenzie.us/).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
