@@ -1,3 +1,98 @@
+
+/* readability css */
+
+:root {
+  --bg-color: #ffffff;
+  --font-color: #000000;
+  /* highest contrast colors
+  for light and dark themes */
+  --red: #ec0000;
+  --green: #008900;
+  --blue: #5f5fff;
+  --gray: #757575;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+      /* change to dark theme */
+      --bg-color: #000000;
+      --font-color: #ffffff;
+  }
+}
+
+@media print {
+  :root {
+      /* change to dark theme */
+      --bg-color: #FFFFFF;
+      --font-color: #000000;
+  }
+}
+
+*:disabled {
+  cursor: not-allowed !important;
+}
+
+[href]:hover {
+  text-decoration: none;
+}
+
+
+body {
+  background: var(--bg-color);
+  color: var(--font-color);
+  /* most readable wed-safe font */
+  font-family: Helvetica;
+  /* 12pt is minimum */
+  font-size: 12pt;
+  /* experimental:
+  highest quality images */
+  image-rendering: high-quality;
+  /* 1.5 is minimum */
+  line-height: 1.5;
+  /* center body in page */
+  margin: auto;
+  /* space inside body */
+  padding: 0 1em;
+  /* browser focuses on readability */
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  /* better for jump scrolling */
+  scroll-behavior: smooth;
+}
+
+iframe {
+  /* common screen ratio */
+  aspect-ratio: 3/2;
+  /* keep from overflowing */
+  width: 99%;
+}
+
+kbd {
+  /* appear like a key */
+  box-shadow: 1px 1px 2px 1px;
+}
+
+table {
+  /* multiple borders merge */
+  border-collapse: collapse;
+  display: block;
+}
+
+td,
+th {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+.navbar {
+  background-color: --bg-color;
+  color: var(--font-color);
+}
+
+/**/
+
 .App {
   text-align: left;
 }
@@ -19,15 +114,19 @@
 .App-link {
   color: rgb(112, 76, 182);
 }
+
+.navbar-light .navbar-brand h1.name, .navbar-light .navbar-brand h6.sub-title {
+    color: --font-color !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand h1.name,
+.navbar-light .navbar-brand h6.sub-title {
+  color: --font-color !important;
+}
 .sub-title {
   font-size: 0.95em;
   margin-left: 8px;
-}
-
-.tele-link {
-  text-decoration: none;
-  cursor: pointer;
-  color: #222232;
 }
 
 .sideHeading {
@@ -71,27 +170,38 @@
   cursor: pointer;
   width: 28px;
   height: 28px;
+  overflow: hidden;
 }
 
 .icon-sm {
   cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: inline-block; 
+}
+
+.icon-sm path {
+  fill: var(--font-color) !important;
+} 
+
+.phone-icon, .email-icon, .print-icon {
+  position: relative;
+}
+.print-icon {
+  margin-left: 1em;
+}
+.icon-svg {
+  position: absolute;
+  top: 6px;
+  left: 6px;
   width: 20px;
   height: 20px;
 }
 
-.print-icon {
-  margin: 3px;
-  margin-left: 18px;
-}
-
-.email-icon {
-  margin: 3px;
-  margin-right: 1px;
-}
-
-.phone-icon {
-  margin: 3px;
-  margin-right: 8px;
+a.tele-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--font-color) !important;
 }
 
 .peek-at-source {
