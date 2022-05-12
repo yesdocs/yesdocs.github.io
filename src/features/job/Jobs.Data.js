@@ -51,7 +51,7 @@ const jobHighlights = [
         "match", "Redesigned a major subscription service payment page that was attributed to an increase in total sales of 4%." 
     ),
     createHighlight(
-        "blackline", "Archtected and delivered a data importing feature that reduced customer onboarding delays for a financial services company that helped the company grow in the Fortune 500 space." 
+        "blackline", "Designed and delivered a data importing feature that reduced customer onboarding delays for a financial services company that helped the company grow in the Fortune 500 space." 
     ),
     createHighlight(
         "volusion", "Guided a PCI compliance audit and personally provided the documentation and evidence required to pass the audit that was threatening the operation of a major storefront company." 
@@ -90,9 +90,9 @@ const jobs = [
         [
             "Designed and built various ASP.NET sites for use by operations in C# as well as deployed those services to Azure cloud for use by the company for various reporting needs.",
             "Evaluated and improved ASP.NET / SQL Server performance issues in key applications such as their pricing tool which drives their pricing online in the web storefronts as well as for use by the Sales staff.",
-            "Created Docker enviornments for use in development and testing.",
+            "Created Docker environments for use in development and testing.",
             "Instrumental in diagnosing Azure intermittent issues in production across the enterprise.",
-            "Performed testing and debugging on various platforms incluing iOS, Android, Windows 10, Mac OS"
+            "Performed testing and debugging on various platforms including iOS, Android, Windows 10, Mac OS"
         ],
         "SQL Server, .NET, C#, Docker, React, Javascript, Bootstrap, Sharepoint, iOS, Android, ASP.NET, .NET Core, OAUTH, Azure, Windows 10, Mac OS, JD Edwards",
     ),
@@ -102,7 +102,7 @@ const jobs = [
         "/logo192.png",
         2019, 8,
         2021, 12,
-        "I joined a team of 3 developers and helped to build the team to 14 developers. My focus was on process, scalability, compliance and various company intiatives.",
+        "I joined a team of 3 developers and helped to build the team to 14 developers. My focus was on process, scalability, compliance and various company initiatives.",
         [
             "Authored new react components as needed for cross platform functionality across all of their white labeled products and services.",
             "I helped to grow the team by conducting interviews and contributing to the company's evaluation of candidates.",
@@ -247,7 +247,7 @@ const jobs = [
         "/logo192.png",
         2001, 5,
         2007, 12,
-        "I joined Move.com (parent coompany of Realtor.com) as a Manager of Software Engineering to help establish and manage engineering best practices within the Realtor.com development team. My role expanded to encapsulate all interactions and development activities within Engineering of the Move.com family of products.",
+        "I joined Move.com (parent company of Realtor.com) as a Manager of Software Engineering to help establish and manage engineering best practices within the Realtor.com development team. My role expanded to encapsulate all interactions and development activities within Engineering of the Move.com family of products.",
         [
             "I built a team of 22 Architects and Engineers and was responsible for an entire department of 55 engineers including budget forecasting and department growth.",
             "I managed all projects that affected the enterprise and engineered solutions specifically for the enterprise. I was involved in all consumer product platforms.",
@@ -286,7 +286,7 @@ const jobs = [
         2000, 4,
         "I was brought in to report directly to managing partner and was responsible for product management, technological innovations and visions, team management and administration, and all other aspects of the development lifecycle within the CORPTax product family.",
         [
-            "I waas responsible for company's main product, CORPTax, which reached top be the market leader in the industry during my tenure.",
+            "I was responsible for company's main product, CORPTax, which reached top be the market leader in the industry during my tenure.",
             "I designed and participated in the development coding of all key product area's as well as functioning as the project manager.",
             "I performed the Architect role by designing and implementing all data access routines for the product.",
             "Lead the development and implementation of the company's Quality Assurance policies and procedures in the development department.",
