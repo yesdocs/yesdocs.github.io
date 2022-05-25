@@ -87,7 +87,7 @@ th {
 }
 
 .navbar {
-  background-color: --bg-color;
+  background-color: var(--bg-color) !important;
   color: var(--font-color);
 }
 
