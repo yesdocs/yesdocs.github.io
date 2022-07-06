@@ -71,7 +71,7 @@ const jobs = [
         "",
         0, 0,
         0, 0,
-        "FFullstack Software Developer with an expertise in ReactJS, including a solid architectural grounding in software development methodologies and a proven track record for delivering innovative products.",
+        "Fullstack Software Developer with an expertise in ReactJS, including a solid architectural grounding in software development methodologies and a proven track record for delivering innovative products.",
         [
             "Focuses critical attention on team collaboration, process methodology, quality and automation, resulting in high-quality products which have been adopted by major customers.",
             "Exhibits leadership skills and the ability to organize and implement large multi-million-dollar development efforts.",
