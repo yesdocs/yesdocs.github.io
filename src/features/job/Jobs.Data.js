@@ -2,7 +2,7 @@ const MonthToEnglish = (num) => {
     switch(num) {
         default:
         case 1: return 'January';
-        case 2: return 'Feburary';
+        case 2: return 'February';
         case 3: return 'March';
         case 4: return 'April';
         case 5: return 'May';
@@ -45,22 +45,22 @@ const createHighlight = ( forjobId, desc) => {
 
 const jobHighlights = [
     createHighlight(
-        "sbd", "Developed a critical path 'theory of constraints' dashboard identifing bottlenecks in production lines used by all production facilities." 
+        "sbd", "Developed a critical path 'theory of constraints' dashboard identifying bottlenecks in production lines used by all production facilities. This dashboard was vital in streamlining operations, improving the overall efficiency of production lines, and reducing costs." 
     ),
     createHighlight(
-        "match", "Redesigned a major subscription service payment page that was attributed to an increase in total sales of 4%." 
+        "match", "Redesigned a major subscription service payment page, resulting in an increase in total sales of 4%." 
     ),
     createHighlight(
-        "blackline", "Designed and delivered a data importing feature that reduced customer onboarding delays for a financial services company that helped the company grow in the Fortune 500 space." 
+        "blackline", "Designed and developed import feature for online financial services company, reducing customer onboarding delays by more than 75% and increasing overall efficiency in account management operations. " 
     ),
     createHighlight(
-        "volusion", "Guided a PCI compliance audit and personally provided the documentation and evidence required to pass the audit that was threatening the operation of a major storefront company." 
+        "volusion", "Guided a compliance audit that was threatening the operation of a major storefront company and provided the documentation and evidence required to pass the audit." 
     ),
     createHighlight(
-        "realtor", "Built an Enterprise Architecture Department from it's conception to a team of 22 members complete with integration processes for a large internet company."
+        "realtor", "Built a department of Enterprise Architects from conception to 22 members, including integration processes to make it successful for a large internet company."
     ),
     createHighlight(
-        "fdsi", "Built an WYSIWYG data importing feature on the Windows platform that revolutionized the corporate tax software industry forcing competitors to create similar features in their product as a baseline for entering the industry."
+        "fdsi", "Created a WYSIWYG feature in the corporate tax software industry, thus revolutionizing the market forcing competitors to create similar features in their product as a baseline for entering the market."
     ),
 ]
 
@@ -71,12 +71,12 @@ const jobs = [
         "",
         0, 0,
         0, 0,
-        "Full Stack Software Developer with a solid architectural grounding in software development methodologies and a proven track record for delivering innovative products.",
+        "FFullstack Software Developer with an expertise in ReactJS, including a solid architectural grounding in software development methodologies and a proven track record for delivering innovative products.",
         [
-            "Focuses critical attention on team collaboration, process methodology, quality and automation.",
-            "Exhibits characteristics such as good planning, detail-orientation, and the ability to organize and implement large multi-million-dollar development efforts.",
-            "Action and results-oriented individual who has an emphasis on the expansion and application of technical knowledge.",
-            "Excellent communication skills and effectively presents information to executive management peers as well a engineering staff."
+            "Focuses critical attention on team collaboration, process methodology, quality and automation, resulting in high-quality products which have been adopted by major customers.",
+            "Exhibits leadership skills and the ability to organize and implement large multi-million-dollar development efforts.",
+            "Action oriented full-stack software developer with a strong emphasis on the expansion and application of technical knowledge. ",
+            "Excellent communication skills, including ability to present information to executive management peers as well a engineering staff."
         ],
         "",
     ),
@@ -86,15 +86,15 @@ const jobs = [
         "/logo192.png",
         2022, 1,
         0, 1,
-        "I work directly with management staff to determine the needs for new or existing strategic software tools to aid the company intiatives.",
+        "I work directly with management staff to determine the needs for new or existing strategic software tools, aiding the company in the development of new software to aid the company initiatives.",
         [
-            "Designed and built various ASP.NET sites for use by operations in C# as well as deployed those services to Azure cloud for use by the company for various reporting needs.",
-            "Evaluated and improved ASP.NET / SQL Server performance issues in key applications such as their pricing tool which drives their pricing online in the web storefronts as well as for use by the Sales staff.",
-            "Created Docker environments for use in development and testing.",
-            "Instrumental in diagnosing Azure intermittent issues in production across the enterprise.",
-            "Performed testing and debugging on various platforms including iOS, Android, Windows 10, Mac OS"
+            "Designed and built various ASP.NET sites for use by operations in C#/.NET as well as deployed those services to the Azure cloud for use by the company for various reporting needs.",
+            "Evaluated and improved performance issues in ASP.NET / SQL Server applications, including the company's pricing tool which drives their pricing online in the web storefronts as well as for use by the Sales staff.",
+            "Created Docker environments to streamline development and testing processes.",
+            "Diagnosed and resolved Azure intermittent issues in production across the enterprise.",
+            "Performed cross-platform testing and debugging on all platforms including iOS, Android, Windows 10, and Mac OS."
         ],
-        "SQL Server, .NET, C#, Docker, React, Javascript, Bootstrap, Sharepoint, iOS, Android, ASP.NET, .NET Core, OAUTH, Azure, Windows 10, Mac OS, JD Edwards",
+        "SQL Server, .NET, C#, Docker, React, Redux, Javascript, Bootstrap, Sharepoint, iOS, Android, ASP.NET, .NET Core, OAUTH, Azure, Windows 10, Mac OS, JD Edwards, InfluxDB, Mongo DB",
     ),
     createJob( "healthsherpa","Senior Software Developer",
         "Geozoning, Inc",
@@ -104,26 +104,26 @@ const jobs = [
         2021, 12,
         "I joined a team of 3 developers and helped to build the team to 14 developers. My focus was on process, scalability, compliance and various company initiatives.",
         [
-            "Authored new react components as needed for cross platform functionality across all of their white labeled products and services.",
-            "I helped to grow the team by conducting interviews and contributing to the company's evaluation of candidates.",
-            "Diagnosed problematic performance issues in design and execution across various parts of the platform.",
-            "Created Postgres performance indices with InnoDB for insight into historical and current database conditions.",
-            "Introduced processes, and hosted meetings to link the buisiness with the development efforts of the team."
+            "Authored components for cross platform functionality across all of their white labeled products and services.",
+            "I helped to grow the team by conducting interviews, participating in hiring committee, and contributing to the company's evaluation of candidates.",
+            "Diagnosed and resolved performance issues in design and execution across various parts of the platform.",
+            "Created Postgres performance indices and leveraged InfluxDB to monitor and respond to historical and current database conditions.",
+            "Introduced new processes and led meetings to link the business units with software development efforts."
         ],
-        "Ruby, Rails, React, Redux, Postgres, SQL Server, InfluxDB, Heroku, Docker, Bootstrap, .NET Core",
+        "Ruby, Rails, React, Redux, Postgres, SQL Server, InfluxDB, Heroku, Docker, Bootstrap",
     ),
-    createJob( "cam", "Senior Web Developer (IC)",
+    createJob( "cam", "Senior Web Developer",
         "Consolidated Aerospace Manufacturing",
         "(Remote) Brea, CA",
         "/logo192.png",
         2019, 3,
         2019, 7,
-        "I worked with internal team members to architect solutions for use arcoss the enterprise.",
+        "I worked with internal team members to architect solutions for use across the enterprise, taking into account security and scalability best practices.",
         [
             "Performed various ASP.NET / SharePoint optimizations with the development of their pricing tool.",
             "Evaluated and improved ASP.NET / SQL Server performance issues with JD Edwards integrations.",
             "Diagnosed Javascript problems on various platforms including iOS, Android, as well as Internet Explorer and Edge.",
-            "Worked to fix vsrious Python reporting scripts and tools",
+            "Worked to fix various Python reporting scripts and tools",
         ],
         "SQL Server, C#, Docker, React, Javascript, Bootstrap, .NET, .NET Core, Sharepoint, iOS, Android, JD Edwards, Python",
     ),
@@ -133,12 +133,12 @@ const jobs = [
         "/logo192.png",
         2018, 10,
         2019, 3,
-        "I worked with internal team members performing duties as needed to produce an internal marketing tool for reporting on advertising efforts.",
+        "I worked with internal team members to produce an internal marketing tool for reporting on the advertising efforts of the clients.",
         [
-            "Evaluated and improved Postgres SQL queries that were failing or were inefficient in production as well as local Docker environments.",
-            "Authored React components and Redux elements as needed for the internal project needs.",
-            "Researched issues and diagnosed Javascript problems on various platforms including iOS, Android, as well as common web browsers.",
-            "Introduced the use of Storybook to catalog UI components."
+            "Evaluated, and improved inefficient or failing Postgres SQL queries in production as well as local Docker environments.",
+            "Authored React components and Redux elements as needed for the internal project needs, including custom map displays and a real-time data feed.",
+            "Researched and diagnosed Javascript errors on a variety of platforms, including iOS, Android, and common web browsers.",
+            "Introduced the use of Storybook.js to catalog a menu of UI components."
         ],
         "Postgres, Python, Docker, React, Redux, MobX, Javascript, Bootstrap, iOS, Android, Mac OS, Jira",
     ),
@@ -153,7 +153,7 @@ const jobs = [
             "Implemented ASP.NET / WebAPI endpoints to meet the needs of various applications.",
             "Diagnosed SQL statements that were failing or were inefficient across SQL Server and Oracle databases.",
             "Authored React components and Redux elements as needed for various projects.",
-            "Recomended solutions such as Storybook and Redux Saga for various Javascript concerns."
+            "Recommended solutions such as Storybook and Redux Saga for various Javascript concerns."
         ],
         "SQL Server, Oracle, MySQL, .NET, .NET Core, Azure, React, Redux, Redux Saga, Storybook, Javascript, Bootstrap, C#, Jira",
     ),
@@ -166,8 +166,8 @@ const jobs = [
         "I augmented the mobile web team staff as a web developer to assist the staff in achieving company objectives and improving the scalability of their web products.",
         [
             "My duties included diagnosing performance issues in various parts of the application.",
-            "Lead the team in delivering the product from a Continous Integration pipeline.",
-            "I lead internal teams in the diagnosis and resolution of issues encountered in production, as well as the implementation of new features and products on Match.com’s family of web properties.",
+            "Lead the team in delivering the product from a Continuous Integration pipeline.",
+            "I lead internal teams in the diagnosis and resolution of issues encountered in production, as well as the implementation of new features and products on Match.com's family of web properties.",
         ],
         "React, Redux, Javascript, JQuery, Bootstrap, .NET, iOS, Android, ASP.NET, .NET Core, SQL Server, ASP.NET MVC, ASP.NET API, Javascript, Jenkins, C#, Jira",
     ),
@@ -177,7 +177,7 @@ const jobs = [
         "/logo192.png",
         2014, 8,
         2015, 2,
-        "I joined a startup as their CTO to help solve the problem of ad placement in the entertainment industry. I was responsible for budgeting, development, and coding on all technology services as well as talent acquisition and all other IT duties.",
+        "I joined a startup as the CTO to help solve the problem of ad placement in the entertainment industry. I was responsible for budgeting, development, and coding on all technology services as well as talent acquisition and all other IT duties.",
         [
             "I participated in venture funding meetings and technology evaluations.",
             "I successfully helped the company acquire Series A funding.",
@@ -213,13 +213,13 @@ const jobs = [
         "/logo192.png",
         2009, 7,
         2010, 10,
-        "I was a consultant for soultionset subcontracted out to various organizations, for a variety of roles.",
+        "I was a consultant that was subcontracted out to various organizations, for a variety of roles.",
         [
-            "As a remote consultant with TXU(Texas Utilities), I was contrated to help rewrite their consumer utilities application from java/SAP to .NET/SAP.",
+            "As a remote consultant with TXU (Texas Utilities), I was contracted to help rewrite their consumer utilities application from java/SAP to .NET/SAP.",
             "I documented TXU's existing functionality and designed software to meet standards of the existing software and validate existing business rules and their appropriate timelines for implementation.",
-            "As a remote consultant for Chevron, Inc. I lead the implementation of a Content Mamagemet System across their Human Resources department which fed their internal HR websites and PDF manuals.",
+            "As a remote consultant for Chevron, Inc. I lead the implementation of a Content Management System across their Human Resources department which fed their internal HR websites and PDF manuals.",
             "Facilitated discovery meetings with Chevron, Inc. and their department executives and documented the requirements for the development efforts.",
-            "Lead a team of 3 engineers in the design (UX), development, and deployment of the Content Managenet System across their enterprise.",
+            "Lead a team of 3 engineers in the design (UX), development, and deployment of the Content Management System across their enterprise.",
         ],
         "SAP, Java, J2EE, .NET, C#, Bootstrap, ASP.NET, ASP.NET MVC, ASP.NET API, OAUTH, C#, Sitecore, CMS, Jira",
     ),
@@ -274,7 +274,7 @@ const jobs = [
             "I was solely responsible for all aspects of my projects including overall customer satisfaction, full product development lifecycle activities, as well as line management of direct reports.",
             "Worked closely with the executive management to set technical and process directions, review and recommend improvements to business processes, as well establishing localized goals for remote offices.",
             "Participated in the developing, writing, estimation, and architecture of proposals, many of which led to the capture of large contracts.",
-            "Helped position ebuilt as a premiere implementor of the OpenMarket CMS system by performing their first implementation as a very successful deployhment (americanfunds.com).", 
+            "Helped position eBuilt as a premiere implementor of the OpenMarket CMS system by performing their first implementation as a very successful deployment (americanfunds.com).", 
         ],
         "J2EE, eXtreme Programming, TDD, Weblogic, Oracle, JQuery, Javascript, UML, .NET",
     ),
@@ -302,7 +302,7 @@ const jobs = [
         "Brought on to lead the development of the Visual Diagnostic Editor, a product that enabled automobile manufactures to visually author automobile diagnostic scripts for use in the service bay at local automotive dealers.",
         [
             "I lead a team of 7 developers which included training and mentoring staff with the use of MFC.",
-            "I learned the 'HP-Way' of managing and developing people which helped form the basis of my management approach including honesty, ethics, and anti–egoism.",
+            "I learned the 'HP-Way' of managing and developing people which helped form the basis of my management approach including honesty, ethics, and anti-egoism.",
             "I implemented the 'fusion' object-oriented methodology across the codebase to simplify a very complex system.",
         ],
         "Windows API, C++, MFC, Win32",
@@ -313,7 +313,7 @@ const jobs = [
         "/logo192.png",
         1994, 1,
         1994, 9,
-        "Sr. Developer and chief architect of the company’s Corporate Tax Software package.",
+        "Sr. Developer and chief architect of the company's Corporate Tax Software package.",
         [
             "I revolutionized the product offering and raised the standard in ease of use and wysiwyg data imports.",
             "I reported directly to the President in management and product decisions.",
